@@ -1,18 +1,8 @@
-@import url(./cabecalho.css);
-@import url(./rodape2.css);
-html{
-    font-size: 62.5%;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
 
 .conteudo2 h2, .conteudo2 p{
     color:#275e34 ;
 }
-div{
+.introducao, .pagro, .conserv,.usoagua,.introducao2, .conserv, .filosofia, .exemplos,.card,.ex, .image-container2{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -104,11 +94,17 @@ div video{
     text-align: right;
 }
 
-.ex{
-    margin-top: 8%;
-}
 .ex h2{
     margin-top: 10%;
+}
+
+.ex p{
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+
+.ex p span{
+    font-style: italic;
 }
 .exemplos{
     display: flex;
@@ -150,7 +146,7 @@ div video{
     padding: 16px;
     margin: 8px;
     margin-bottom: 5%;
-    min-height: 75vh;
+    min-height: 100vh;
     height: 100%;
 }
 
@@ -164,6 +160,10 @@ div video{
 .card p{
     color: #275e34; 
     font-size: 20px;
+}
+
+.card a{
+    text-decoration: none;
 }
 
 .card:hover p{
@@ -194,9 +194,12 @@ div video{
     height: 400px;
 }
 
+.image-container2{
+    margin-left: 10%;
+}
+
 .image-container2 img {
     margin-right: 10%;
-    width: 650px;
     height: 400px;
     margin-top: 8%;
     margin-bottom: 8%;
@@ -207,8 +210,46 @@ div video{
     background-size: cover;
 }
 
+.introducao2{
+    background: url(../img/Cópia\ de\ background\ \(3\).png);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
 
+.introducao2 h2{
+    margin-top: 12%;
+    color: #fff;
+    
+}
 
+.introducao2 p{
+    margin-inline: 14%;
+    color: #fff;
+}
 
+.image-container2 iframe{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
 
+.txt3{
+    margin-top: 7%;
+}
+.filosofia{
+    background: #0f0905;
+}
 
+.filosofia h2{
+    margin-inline: 10%;
+    margin-top: 5%;
+    text-align: left;
+    font-style: italic;
+    color: #fff;
+}
+.filosofia p{
+    margin-bottom: 5%;
+    text-align: left;
+    margin-left: 10%;
+    color: #fff;
+}
