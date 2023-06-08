@@ -146,7 +146,7 @@ div video{
     padding: 16px;
     margin: 8px;
     margin-bottom: 5%;
-    min-height: 100vh;
+    min-height: 70vh;
     height: 100%;
 }
 
@@ -252,4 +252,12 @@ div video{
     text-align: left;
     margin-left: 10%;
     color: #fff;
+}
+
+@media (max-width: 800px){
+    
+}
+
+@media (max-width: 500px){
+    
 }

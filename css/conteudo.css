@@ -102,3 +102,18 @@
 .titulo3{
     padding: 3%;
 }
+
+@media (max-width: 830px){
+    .introindex{
+        height: 40vh;
+    }
+    .card{
+        height: 10vh;
+    }
+}
+
+@media (max-width: 500px){
+    h2{
+        font-size: 40px;
+    }
+}
