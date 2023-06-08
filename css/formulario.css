@@ -1,14 +1,27 @@
 @import url(./estilo.css);
 
+.conteudo6{
+    display: flex;
+    flex-direction: column;
+    background-color: #422919;
+}
+.titform{
+  margin-top: 5%;
+  margin-inline: 10%;
+}
 .form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 350px;
-    background-color: #fff;
+    width: 90vh;
+    /* max-width: 660px; */
+    background-color: #5f412e;
     padding: 20px;
     border-radius: 10px;
     position: relative;
+    align-self: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
   }
   
   .message {
@@ -39,7 +52,7 @@
     left: 10px;
     top: 15px;
     color: grey;
-    font-size: 0.9em;
+    font-size: 2em;
     cursor: text;
     transition: 0.3s ease;
   }
@@ -51,7 +64,7 @@
   
   .form label .input:focus + span,.form label .input:valid + span {
     top: 30px;
-    font-size: 0.7em;
+    font-size: 2em;
     font-weight: 600;
   }
   
@@ -72,7 +85,7 @@
     left: 10px;
     top: 50px;
     color: grey;
-    font-size: 0.9em;
+    font-size: 2em;
     cursor: text;
     transition: 0.3s ease;
   }
