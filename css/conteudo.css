@@ -1,75 +1,86 @@
+@import url(../css/estilo.css);
 
 .conteudo {
     display: flex;
     flex-direction: column;
 }
 
-.games h2{
-    color: #ffffff;
-    font-family:  "Gotham HTF", sans-serif;
-    position: relative;
-    top: 8%;
-    left: -36%;
-    font-size: 90px;
-}
-.games p{
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-family:  "Gotham HTF", sans-serif;
-    text-align: left;
-    font-size: 20px;
-    top: 8%;
-    left: 2%;
-    margin-right: 52%;
-}
-.mobile{
-    background:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../img/imgmobile.jpg);
-    background-size: cover;
-    height: 100vh;
+.conteudoindex{
+    /* background: #2F9248; */
 }
 
-.mobile h2{
-    color: #ffffff;
-    font-family:  "Gotham HTF", sans-serif;
-    font-size: 140px;
-    filter: brightness();
-
+.introindex{
+    height: 80vh;
+    background: url(../img/Cópia\ de\ background\ \(6\).png);
+    display: flex;
+    flex-direction: column;
 }
 
-.mobile p{
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-family:  "Gotham HTF", sans-serif;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 20%;
-    margin-right: 20%;
+.introindex h2{
+    margin-top: 12%;
+    color: #fff;
+    
+}
+
+.introindex p{
+    margin-inline: 14%;
+    color: #fff;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grafico h2{
     margin-top: 4%;
-
+    color: #362418;
 }
 
-.tech{
-    background:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../img/fundocomp.jpg);
-    background-size: cover;
-    height: 100vh;
+.grafico p{
+    margin-inline: 10%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    color: #362418;
 }
 
-.tech h2{
-    color: #ffffff;
-    font-family:  "Gotham HTF", sans-serif;
-    font-size: 140px;
-    position: relative;
-    left: 26%;
-
+.todasleis{
+    background: #2F9248;
 }
 
-.tech p{
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-family:  "Gotham HTF", sans-serif;
-    text-align: right;
+
+.leis{
+    display: flex;
+}
+
+.leis h2{
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.lei2{
+    margin-top: 1%;
+}
+
+.lei1 p, .lei2 p, .todasleis p {
     font-size: 20px;
-    top: 6%;
-    left: 50%;
-    margin-right: 52%;
+}
+
+.todasleis{
+    height: 100%;
+}
+.todasleis h2{
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+
+.todasleis p{
+    font-size: 20px;
+    margin-inline: 10%;
+}
+
+.final{
+    margin-bottom: 5%;
 }
